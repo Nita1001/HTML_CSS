@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  
+  <div>
+    <h1>Create an Account</h1>
+    <form>
+      
+      <div>
+       <label for="email">Email:</label><br>
+       <input type="text" id="email" name="email" placeholder="email@gmail.com">
+      </div>
+      <br>
+      <label for="password">Password:</label><br> 
+      <input type="text" id="password" name="password" placeholder="Password" required>  
+      <br>
+      <br>
+      <div>
+        <label for="Age">Age:</label><br>
+        <select>
+          <option value="Age">Age</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">20</option>
+          <option value="22">20</option>
+          <option value="23">20</option>
+          <option value="24">20</option>
+          <option value="25">20</option>
+        </select>
+      </div>
+      <!-- EXTRA ;) -->
+      <div>
+        <input type="radio" value="none" id="male" name="gender" checked/>
+        <label for="male">Male</label>
+        <input type="radio" value="none" name="gender" />
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <p>I agree to the  <a href="">terms of service</a>.</p>
+        <button type="Sign up" href="">Sign up</button>
+      </div>
+    </form>
+  </div>
+
+
+</body>
+</html>
