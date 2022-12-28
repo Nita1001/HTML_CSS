@@ -1,0 +1,123 @@
+
+body{
+  background-color: #2b4766;
+}
+
+div{
+  margin: 20px;
+  padding: 40px 40px 40px;
+}
+
+section{
+  text-align: center;
+}
+
+/* Button Styling */
+/* btn1 */
+.btn1-left{
+  font-size: 16px;
+  background: #4585f2;
+  border: none;
+  color: white;
+  width: 150px;
+  height: 80px;
+  padding: 6px 6px 6px;
+  margin-right: 20px;
+  
+}
+
+.btn1-left:hover {
+background-color: #3a6fc0; 
+}
+
+.btn1-right{
+  font-size: 8px;
+  background: #fac546;
+  border: none;
+  color: white;
+  width: 60px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+/* btn2 */
+
+.btn2-left{
+  font-size: 16px;
+  background: #35a84f;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  width: 150px;
+  height: 80px;
+  padding: 6px 6px 6px;
+  margin-right: 20px;
+}
+
+
+
+.btn2-right{
+  font-size: 8px;
+  background: #d24e6e;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  width: 60px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+
+/* btn3 */
+
+
+.btn3-left{
+  font-size: 16px;
+  background: transparent;
+  border: solid #714a57;
+  color: white;
+  width: 150px;
+  height: 80px;
+  padding: 6px 6px 6px;
+  margin-right: 20px;
+}
+
+
+
+.btn3-right{
+  font-size: 8px;
+  background: transparent;
+  border: solid #644772;
+  color: white;
+  width: 60px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+
+/* btn4 */
+
+.btn4-left{
+  font-size: 16px;
+  background: transparent;
+  border: solid #827e4d; 
+   color: white;
+  width: 150px;
+  height: 80px;
+  padding: 6px 6px 6px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+
+
+.btn4-right{
+  font-size: 8px;
+  background: transparent;
+  border: solid #3e6e75;
+  color: white;
+  width: 60px;
+  height: 30px;
+  margin-left: 20px;
+  border-radius: 50px;
+}
