@@ -1,0 +1,39 @@
+.div-one{
+  border-style: solid;
+  position: relative; 
+  width: 200px;
+  height: 200px;
+}
+.div-two{
+  border-style: solid;
+  position: absolute; 
+  width: 150px;
+  height: 100px;
+  z-index: 3; 
+  top: 185px;
+  left: 100px;
+  background: white;
+}
+
+
+.div-three{
+  border-style: solid;
+  position: relative;
+  width: 80px;
+  height: 400px;
+  z-index: 5; 
+  bottom: 204px;
+  left: 280px;
+  background: white;
+
+}
+.div-four{
+  border-style: solid;
+  position: relative; 
+  width: 450px;
+  height: 100px;
+  z-index: 4; 
+  right: 5px;
+  bottom: 340px;
+  background: white;
+}

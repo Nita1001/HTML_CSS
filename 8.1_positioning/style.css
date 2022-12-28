@@ -1,0 +1,15 @@
+#outer {
+  width: 100px;
+  height: 100px;
+  background: darkcyan;
+  margin: 50px;
+  position: relative;  
+  }
+  #inner {
+  width: 50px;
+  height: 50px;
+  background: lightgreen;
+  position: absolute; /*this div is regulated by the limit of its container, if the outer div doesn't have position limitations it will be limited by the body of the html.  */
+  top: 10px;
+ 
+  }
