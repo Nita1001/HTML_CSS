@@ -10,12 +10,6 @@ body{
   width: 50%;
 }
 
-header{
-  position: fixed;
-  top: 0;
-  
-}
-
 #first-heading {
   font-family: "Sofia", sans-serif;
   padding: 0 8px 20px;
