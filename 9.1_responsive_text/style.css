@@ -1,0 +1,48 @@
+@media (max-width: 500px){
+  body{
+    background: grey;
+    font-size: 4px;
+  }
+  #smartphone h1{
+      display: block;
+   }
+}
+
+
+/*Tablet*/
+@media (min-width: 501px) and (max-width: 768px){
+  body{
+    background: blue;
+    font-size: 8px;
+
+  }
+  #tablet h1{
+      display: block;
+   }
+}
+
+/*Normal*/
+@media (min-width: 769px) and (max-width: 1200px){
+  body{
+    background: Black;
+    font-size: 12px;
+    color: white;
+
+  }
+  #normal h1{
+      display: block;
+   }
+}
+
+/*WideScreen*/
+@media (min-width: 1201px){
+  body{
+    background: Pink;
+    font-size: 16px;
+
+  }
+  #WideScreen h1{
+      display: block;
+   }
+}
+
