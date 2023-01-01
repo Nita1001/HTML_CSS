@@ -48,7 +48,7 @@ footer{
 }
 
 
-@media (min-width: 500px){
+@media (max-width: 768px){
   section{
   display: none; 
 }
