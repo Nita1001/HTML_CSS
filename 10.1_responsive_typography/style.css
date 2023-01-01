@@ -1,0 +1,46 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html{
+  font-size: 62.5%;
+  max-width: 100vw;
+  max-height: 100vh;
+  padding-top: 10rem;
+}
+h1, h2, h3{
+  text-align: center;
+}
+
+@media (max-width: 500px){
+  html{
+    background-color: cyan;
+    transition-duration: 4s;
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  h1{
+    font-size: 3rem;
+    max-width: 30vh;
+    padding-left: 1rem;
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  h2{
+    font-size: 2rem;
+    max-width: 30vh;
+    padding-left: 1.5rem;
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  h3{
+    font-size: 0.9rem;
+    max-width: 20vh;
+    padding-left: 2rem;
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+}
