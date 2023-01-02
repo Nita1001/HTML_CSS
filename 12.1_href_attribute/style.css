@@ -5,6 +5,6 @@ a{
 a::after{
   
   content:  'Website (https://www.youtube.com/watch?v=EuqvLiB7i7g)';
-  color: purple;
+  color: rgb(68, 185, 187);
   
 }
