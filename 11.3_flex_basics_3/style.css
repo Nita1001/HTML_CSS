@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  background: #e74e4e;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  height: 50vh;
+  background: #ed2f36 ;
+}
+
+.item{
+  width: 100px;
+  text-align: center;
+}
+
+.item-1{
+  background: #1d7873;
+}
+.item-2{
+  background: #679289;
+}
+.item-3{
+  background: #081d22;
+}
