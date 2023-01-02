@@ -1,0 +1,20 @@
+div{
+  width: 50vw;
+  height: 50vh; 
+  background-color: coral;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+div.box:hover:after{
+  content: '';
+  background-color: darkcyan;
+  
+}
+div.box::after{
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: inherit;
+  background-color: cyan;
+}
