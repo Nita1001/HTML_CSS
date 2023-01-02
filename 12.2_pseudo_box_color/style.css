@@ -1,0 +1,15 @@
+div{
+  width: 100vw;
+  height: 100vh; 
+  background-color: coral;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+div.box::after{
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: inherit;
+  background-color: cyan;
+} 
