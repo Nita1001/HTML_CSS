@@ -1,0 +1,43 @@
+body{
+  display: flexbox;
+  margin: 10% 22%;
+  background-color: black;
+}
+
+div{
+  width: 50vw;
+  height: 50vh; 
+  background-color: black;
+  color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+  border: solid rgb(140, 47, 47);
+}
+
+div.box::after{
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 120%;
+  top: -10%;
+  left: 10%;
+  background-color: black;
+}
+
+div.box::before{
+  content: 'cool border';
+  position: absolute;
+  top: 10%;
+  width: 125%;
+  height: 80%;
+  left: -10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  background-color: black;
+  z-index: 1;
+  
+}
+
