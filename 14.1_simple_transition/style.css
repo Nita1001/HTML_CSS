@@ -1,0 +1,26 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.box{
+  background: black;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  top: 140px;
+  transition-property: background;
+  overflow: hidden;
+}
+.box::after{
+  content: '';
+  position: absolute;
+  background: cyan;
+  width: 200px;
+  height: 200px;
+  transform: translateX(200px); 
+  transition: all 1s ease-in-out;
+}
+.box:hover::after{
+  transform: translateX(0px);
+}
+
