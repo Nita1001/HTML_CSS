@@ -162,9 +162,11 @@ li.nav-items{
 
 .top-nav h2{
   margin-left: 2rem;
+  opacity: 0.3;
 }
 section#landing-page{
   background-image: url(/10.2_refactor_landing_page_FWP/Assets/images/w-qjCHPZbeXCQ-unsplash.jpg);
+  background-size: cover;
   width: 98.72vw;
   height:  100vh;
   opacity: 0.5;
@@ -224,10 +226,6 @@ div.top-nav{
     /* border: solid gray; */
     padding-left: 5%;
   }
-
-  .top-nav{
-    width: 30%;
-  }
   section#landing-page{
     display: inline-flex;
   }
@@ -235,6 +233,20 @@ div.top-nav{
     font-size: 500%;
     justify-content: flex-start;
   }
-
+  ul.nav-links{
+    width: 10%;
+    justify-content: space-between  ;
+    flex-direction: column;
+  }
+  div.top-nav{
+    flex-direction: column;
+    display: block;
+    margin-left: 1rem;
+  }
+  div.top-nav h2{
+    padding-right: 10px;
+    font-size: 1rem;
+    margin-left: 0;
+  }
 
 }
