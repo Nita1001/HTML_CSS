@@ -8,8 +8,6 @@
 
 .grid-container{
   display: grid;
-  /* grid-template-columns: 100px 100px 100px 100px; */
-  /* grid-template-rows: repeat(2, auto); */
   gap: 1rem; 
   margin: 10rem auto 0;
   max-width: 900px;
