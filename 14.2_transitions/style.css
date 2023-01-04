@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+  width: 100vw;
+  height: 100vh;
+}
+
+div.center{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 100vh;
+  margin: auto;
+  /* flex-direction: raw-reverse; */
+  border: solid cyan;  
+} 
+
+.btn{
+  display: flex;
+  border: solid black;
+  justify-content: space-between;
+  min-height: 5rem;
+  min-width: 16rem;
+  position: relative;
+  background: transparent;
+}
+
+.translate-y{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  overflow: hidden;
+}
+.translate-y::before{
+  content: ''; 
+  background: cyan;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 5rem;
+  width: 16rem;
+  height: 5rem;
+  transition: transform 2s ease-in;
+  transform: translateY(0);
+}
+.translate-y:hover::before{
+  content: 'cool!';
+  transform: translateY(5rem);
+}
+
+.translate-x{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.translate-x::before{
+  content: ''; 
+  background: salmon;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 15.8rem;
+  width: 16rem;
+  height: 5rem;
+  transition: 2s ease-in;
+  transform: translateX(0);
+  z-index: -1;
+}
+.translate-x:hover::before{
+  content: '';
+  transform: translateX(16rem);
+}
+
+.rotate{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* overflow: hidden; */
+}
+.rotate::before{
+  content: '';
+  background:   mediumorchid;
+  position: absolute;
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; */
+  width: 16rem;
+  height: 5rem;
+  z-index: -1;
+  bottom: 5rem;
+  right: 20rem;
+  transition: 2s ease-in;
+  transform: translateX(0) rotate(90deg);
+}
+.rotate:hover::before{
+  content: '';
+  transform: translateX(20rem) rotate(-90deg) rotate(90deg);
+}
+
+
+
+.scale{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+
+
+.skew{
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  
+ 
+}
