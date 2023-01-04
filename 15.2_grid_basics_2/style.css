@@ -10,8 +10,9 @@
   /* grid-template-rows: repeat(2, auto); */
   gap: 1rem; 
   margin: 10rem auto 0;
-  max-width: 960px;
-  
+  max-width: 900px;
+  min-height: 500px;
+
   /* grid-template-areas: 
   'red red red red'
   'red red red red'
