@@ -21,7 +21,7 @@
 
 .item{
   border: #ccc;
-  border-radius: 20px;
+  border-radius: 1rem;
   padding: 3rem;
   /* text-align: center; */
   font-size: 1.4rem;
