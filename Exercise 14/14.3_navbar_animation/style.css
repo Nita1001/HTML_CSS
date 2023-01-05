@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap');
+
+body{ 
+  background-color: #FFECEF;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #251B37;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 10vh;
+  list-style: none;
+}
+ul li{
+  width: 10%;
+}
+ul li button{
+  width: 80%;
+  font-family: 'M PLUS 1', sans-serif;
+  font-size: large;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  color: whitesmoke;
+}
+button:hover{
+  cursor: pointer;
+}
+button::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transition: all 1s;
+  transform-origin: left;
+  transform: scale(0);
+  border-top: 2px solid whitesmoke;
+}
+button::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  transition: all 1s;
+  transform-origin: right;
+  transform: scale(0);
+  border-bottom: 2px solid whitesmoke;
+}
+button:hover::before, button:hover::after{
+  transform: scale(1);
+}
+
