@@ -23,11 +23,13 @@ ul li{
 }
 ul li button{
   width: 80%;
+  padding-top: 4px;
+  padding-bottom: 6px;
   font-family: 'M PLUS 1', sans-serif;
   font-size: large;
   background-color: transparent;
-  border: none;
   position: relative;
+  border: none;
   color: whitesmoke;
 }
 button:hover{
@@ -40,7 +42,7 @@ button::before{
   top: 0;
   width: 100%;
   transition: all 1s;
-  transform-origin: left;
+  transform-origin: top left;
   transform: scale(0);
   border-top: 2px solid whitesmoke;
 }
@@ -51,7 +53,7 @@ button::after{
   bottom: 0;
   width: 100%;
   transition: all 1s;
-  transform-origin: right;
+  transform-origin: bottom right;
   transform: scale(0);
   border-bottom: 2px solid whitesmoke;
 }
