@@ -2,14 +2,41 @@
   padding: 0;
   margin: 0;
 }
-
+body{
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
 .container{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-color: black;
   width: 100vw;
   height: 100vh;
 }
+.spinner-1{
+  width: 6.25rem;
+  height: 6.25rem;
+  border-radius: 6.25rem;
+  border: solid salmon;
+  border-top: solid white;
+  animation: rotation 2s linear infinite;
+}
 
+@keyframes rotation{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.spinner-2{
+  width: 6.25rem;
+  height: 6.25rem;
+  border-radius: 6.25rem;
+  border: solid salmon;
+  animation: rotation 2s linear infinite;
+  border-left: 0.25rem transparent;
+  border-top: 0.25rem salmon;
+}
 
