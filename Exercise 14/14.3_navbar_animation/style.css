@@ -41,7 +41,7 @@ button::before{
   left: 0;
   top: 0;
   width: 100%;
-  transition: all 1s;
+  transition: 1s;
   transform-origin: top left;
   transform: scale(0);
   border-top: 2px solid whitesmoke;
@@ -52,7 +52,7 @@ button::after{
   right: 0;
   bottom: 0;
   width: 100%;
-  transition: all 1s;
+  transition: 1s;
   transform-origin: bottom right;
   transform: scale(0);
   border-bottom: 2px solid whitesmoke;
