@@ -2,11 +2,7 @@
   padding: 0;
   margin: 0;
 }
-body{
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-}
+
 .container{
   display: flex;
   align-items: center;
@@ -46,8 +42,6 @@ body{
   justify-content: space-between;
   width: 6.25rem;
 }
-
-/*  */
 
 .dot-1, .dot-2, .dot-3{
   width: 1.25rem;
