@@ -5,7 +5,7 @@
   }
   #smartphone h1{
       display: block;
-   }
+  }
 }
 
 
@@ -18,7 +18,7 @@
   }
   #tablet h1{
       display: block;
-   }
+  }
 }
 
 /*Normal*/
@@ -31,7 +31,7 @@
   }
   #normal h1{
       display: block;
-   }
+  }
 }
 
 /*WideScreen*/
@@ -43,6 +43,6 @@
   }
   #WideScreen h1{
       display: block;
-   }
+  }
 }
 
