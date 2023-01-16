@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>toolTip</title>
+  <style>
+    div{
+      display: inline-block;
+      width: 320px;
+      height: fit-content;
+    }
+    a{
+      text-decoration: none;
+      color: rgba(96, 40, 0, 0.347);
+    }
+    a.tooltip{
+      position: relative;
+      display: inline-block;
+      cursor: help;
+      background-color: #EAEADE; 
+    }
+    .tooltip:hover::after{
+      content: attr(data-tooltip);
+      position: absolute;
+      left: 19rem;
+      bottom: 0.3rem;
+      background-color: rgba(30, 0, 255, 0.73);
+      color: white;
+      width: 5rem;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>ToolTip</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusiosam nihil eos in esse vero, qui cumque eius aspernatur expedita porro distinctio quasi amet, deserunt quidem!
+    Repudiandae sequi nostrum nemo officiis sit <a class="tooltip" href="#" data-tooltip="my-tooltip">HOVER ME tempora odit corrupti aperiam.</a>  quasi molestias quam animi voluptas praesentium quibusdam beatae necessitatibus, ullam quis quo. Cumque, sit! Qui modi molestiae minus esse? Assumenda.
+    Earum quidem aperiam ipsa explicabo autem nisi oris rerum ex odit facere fugit dolorem quaerat aut? Perferendis, dignissimos. Ipsum, quis rem minus officiis magnam harum</p>
+  </div>
+</body>
+</html>
